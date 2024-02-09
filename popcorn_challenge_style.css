@@ -7,7 +7,7 @@ section.head{
   background-color: #FFDBAA;
   background-position: top;
   height: 80px;
-  width: 1200px;
+  width: 3000px;
 }
 
 h1{
@@ -39,10 +39,6 @@ body{
   border-width: 20px;
 }
 
-.main-options{
-  margin-right: 16ox;
-}
-
 .flights{
   background-color: white;
   height: 170px;
@@ -51,7 +47,7 @@ body{
   box-shadow: 5px 5px 5px black;
   position:absolute;
   top: 120px;
-  left: 5px;
+  left: 200px;
 }
 
 .flights button{
@@ -66,13 +62,13 @@ body{
   box-shadow: 5px 5px 5px black;
   position:absolute;
   top: 120px;
-  left: 300px;
+  left: 500px;
 }
 
 .group-trips button{
   background-color: #805215;
   color: white;
-};
+}
 
 .discount-flights{
   background-color: white;
@@ -82,10 +78,27 @@ body{
   box-shadow: 5px 5px 5px black;
   position:absolute;
   top: 120px;
-  right: 5px;
+  left: 800px;
 }
 
 .discount-flights button{
   background-color: #805215;
   color: white;
-};
+}
+
+.about-us{
+  background-color: white;
+  height: 170px;
+  width: 1100px;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  position:absolute;
+  top: 350px;
+  left: 100px;
+  padding: 10px;
+}
+
+.about-us button{
+  background-color: #805215;
+  color: white;
+}
