@@ -3,3 +3,89 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+section.head{
+  background-color: #FFDBAA;
+  background-position: top;
+  height: 80px;
+  width: 1200px;
+}
+
+h1{
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  color: #553100;
+  font-size: xx-large;
+}
+
+.nav-button-group{
+  text-align: right;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.nav-button-group button{
+  background-color: #805215;
+  color: white;
+  height: 50px;
+  width: 80px;
+  font-size: medium;
+}
+
+body{
+  background-color: #D4A76A;
+  border: black;
+  border-width: 20px;
+}
+
+.main-options{
+  margin-right: 16ox;
+}
+
+.flights{
+  background-color: white;
+  height: 170px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  position:absolute;
+  top: 120px;
+  left: 5px;
+}
+
+.flights button{
+  background-color: #805215;
+  color: white
+}
+.group-trips{
+  background-color: white;
+  height: 170px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  position:absolute;
+  top: 120px;
+  left: 300px;
+}
+
+.group-trips button{
+  background-color: #805215;
+  color: white;
+};
+
+.discount-flights{
+  background-color: white;
+  height: 170px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  position:absolute;
+  top: 120px;
+  right: 5px;
+}
+
+.discount-flights button{
+  background-color: #805215;
+  color: white;
+};
